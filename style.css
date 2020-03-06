@@ -1,0 +1,326 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat:100,100i,200,200i,300,300i,400,400i,500,500i,600,600i,700,700i,800,800i,900,900i&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i,800,800i&display=swap');
+.conteiner {
+    max-width: 1000px;
+    margin: auto;
+}
+
+header {
+    background-image: url("img/bg.png");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    position: relative;
+}
+
+#content1 img {
+    padding-top: 30px;
+}
+
+#content1 i {
+    float: right;
+    padding-top: 30px;
+    font-size: 28px;
+    color: #FFF;
+    cursor: pointer;
+}
+
+#navbars {
+    display: none;
+}
+
+#navbars ul {
+    position: absolute;
+    text-align: center;
+    top: -300px;
+    left: 50%;
+    transform: translate(0%, 0);
+    animation-name: ul;
+    animation-fill-mode: forwards;
+    animation-duration: 1s;
+}
+
+@keyframes ul {
+    from {
+        top: -300px;
+    }
+    to {
+        top: 60px;
+    }
+}
+
+#navbars li {
+    list-style: none;
+    margin-top: 15px;
+}
+
+#navbars a {
+    text-decoration: none;
+    font: 400 20px 'Open Sans', sans-serif;
+    color: #FFF;
+}
+
+#content2 h1 {
+    font: 300 52px 'Open Sans', sans-serif;
+    letter-spacing: 2px;
+    color: #ffffff;
+    text-align: center;
+    margin-top: 220px;
+}
+
+#contentform {
+    display: flex;
+    margin: auto;
+    justify-content: center;
+    margin-top: 25px;
+}
+
+#contentform input {
+    width: 325px;
+    height: 40px;
+    border: none;
+    outline: none;
+    background-color: #FFF;
+    font: 400 16px 'Open Sans', sans-serif;
+    letter-spacing: 1px;
+    color: #8b8b8b;
+    margin-bottom: 205px !important;
+}
+
+::placeholder {
+    padding-left: 20px;
+}
+
+#contentform button {
+    width: 120px;
+    height: 40px;
+    border: none;
+    outline: none;
+    background-color: #fd4f32;
+    font: 700 16px 'Open Sans', sans-serif;
+    letter-spacing: 1px;
+    color: #ffffff;
+    text-align: center;
+    cursor: pointer;
+}
+
+/*TWO*/
+
+#two {
+    background-color: #eeeeee;
+}
+
+#two h2 {
+    font: 400 16px 'Montserrat', sans-serif;
+    letter-spacing: 0px;
+    color: #323232;
+    padding-top: 60px;
+}
+
+#two p {
+    font: 400 15px 'Open Sans', sans-serif;
+    letter-spacing: 0px;
+    color: #8b8b8b;
+    margin-top: 15px;
+}
+
+#content2one {
+    display: flex;
+    justify-content: space-between;
+}
+
+.card {
+    margin-right: 15px;
+    margin-bottom: 70px;
+}
+
+.card img {
+    height: 205px;
+}
+
+.card-title {
+    font: 400 14px 'Montserrat', sans-serif;
+    letter-spacing: 0px;
+    color: #323232;
+}
+
+.card-text {
+    font: 400 13px 'Open Sans', sans-serif;
+    width: 204px;
+    height: 75px;
+    line-height: 19px;
+    color: #696969;
+}
+
+/*THREE*/
+
+#three h1 {
+    font: 300 52px 'Open Sans', sans-serif;
+    letter-spacing: 2px;
+    color: #323232;
+    padding-top: 80px;
+}
+
+#content3one {
+    display: flex;
+    justify-content: space-between;
+}
+
+#content3one h2 {
+    font: 400 16px 'Montserrat', sans-serif;
+    letter-spacing: 0px;
+    color: #323232;
+    text-align: left;
+    margin-top: 60px;
+}
+
+#content3one p {
+    font: 400 15px 'Open Sans', sans-serif;
+    letter-spacing: 0px;
+    line-height: 22px;
+    color: #8b8b8b;
+    width: 280px;
+    margin-top: 20px;
+}
+
+#content3two h2 {
+    font: 400 16px 'Montserrat', sans-serif;
+    letter-spacing: 0px;
+    color: #323232;
+    text-align: center;
+    margin-top: 75px;
+}
+
+#content3form {
+    display: flex;
+    margin: auto;
+    justify-content: center;
+    margin-top: 30px;
+}
+
+#content3form input {
+    width: 325px;
+    height: 40px;
+    border: none;
+    outline: none;
+    background-color: #eeeeee;
+    font: 400 16px 'Open Sans', sans-serif;
+    letter-spacing: 1px;
+    color: #8b8b8b;
+    margin-bottom: 80px;
+}
+
+#content3form button {
+    width: 150px;
+    height: 40px;
+    border: none;
+    outline: none;
+    background-color: #fd4f32;
+    font: 700 16px 'Open Sans', sans-serif;
+    letter-spacing: 1px;
+    color: #ffffff;
+    text-align: center;
+}
+
+/*FOOTER*/
+
+footer {
+    padding: 30px 100px;
+    background-color: #eeeeee;
+}
+
+#contentfooter {
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+}
+
+#contentfooter p {
+    font: 400 14px 'Open Sans', sans-serif;
+    letter-spacing: 0px;
+    line-height: 22px;
+    color: #8b8b8b;
+}
+
+#contentfooter li {
+    list-style: none;
+    display: inline;
+    margin-right: 20px;
+}
+
+#contentfooter a {
+    font: 400 14px 'Montserrat', sans-serif;
+    letter-spacing: 0px;
+    color: #323232;
+    text-align: center;
+}
+
+@media only screen and (max-width: 768px) {
+    #content1 img {
+        text-align: center;
+        padding-top: 30px;
+    }
+    #content1 i {
+        text-align: center;
+    }
+    #navbars ul {
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: column;
+    }
+    #content2 h1 {
+        font: 300 32px 'Open Sans', sans-serif;
+    }
+    #contentform {
+        display: flex;
+        margin: auto;
+        justify-content: center;
+        flex-wrap: wrap;
+        margin-top: 25px;
+    }
+    #contentform input {
+        margin-bottom: 25px !important;
+    }
+    #content2one {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-around;
+    }
+    #three h1 {
+        font: 300 22px 'Open Sans', sans-serif;
+        text-align: center;
+    }
+    #content3one {
+        display: flex;
+        justify-content: space-around;
+        flex-wrap: wrap;
+    }
+    #content3two h2 {
+        font: 400 14px 'Montserrat', sans-serif;
+    }
+    #content3form {
+        display: flex;
+        margin: auto;
+        justify-content: center;
+        flex-wrap: wrap;
+        margin-top: 10px;
+    }
+    #content3form input {
+        margin-bottom: 10px;
+    }
+    #contentfooter {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: baseline;
+    }
+    #contentfooter li {
+        display: block;
+    }
+    #contentfooter ul{
+     text-align: center;
+    }
+    #bar{
+        display: flex;
+        margin: auto;
+    }
+}
